@@ -2,6 +2,9 @@ import React from 'react';
 import './App.css';
 
 function App() {
+function click(num){
+  alert(num);
+}
   return (
     <div className="m">
       <table>
