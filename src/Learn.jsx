@@ -35,13 +35,17 @@ function handleadd(e){
     console.log(todo)
 }
 
+  function handleclear(){
+    setTodo([])
+  }
   
 return(
 <div>
 <Todo todos = {todo}/>
 <input type="text" ref={todoref}/>
 <button onClick={handleadd}>add</button>
-  <button>clear</button>
+  <button onClick = {handleclear}>clear</button>
+  <p>{todo.length} task left</p>
 </div>
   
 )
