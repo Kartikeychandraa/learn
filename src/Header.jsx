@@ -40,8 +40,13 @@ function Header(){
 
   
 </datalist>
-
-        
+        <br/>
+<label>Date: From</label>
+        <input type = "date" />
+        <label> 
+        To
+        </label>
+         <input type = "date" />
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-primary">Find</button>

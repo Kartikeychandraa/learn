@@ -5,10 +5,11 @@ import Country from './Country'
 import Learn from './Learn'
 import Header from "./Header"
 import News from "./News"
+
 ReactDOM.render(
   <React.StrictMode>
-    <Header />
-<News />
+    <Header /> 
+ <News />
     
   </React.StrictMode>,
   document.getElementById('root')
